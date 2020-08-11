@@ -7,7 +7,6 @@ const SpotController = require ('./controllers/SpotController');
 const DashboardController = require ('./controllers/DashboardController');
 const BookingController = require ('./controllers/BookingController');
 
-
 const routes = express.Router();
 const upload = multer(uploadConfig);
 
