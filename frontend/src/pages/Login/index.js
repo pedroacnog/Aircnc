@@ -32,7 +32,7 @@ export default function Login({ history }){
        value={email}
        onChange={event => setEmail(event.target.value)}
      />
-     <button className="btn" type="submit">Entrar</button>
+     <button className="btn" type="submit">Login</button>
   </form>
   </>
   ) 
