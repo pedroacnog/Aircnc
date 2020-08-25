@@ -28,7 +28,7 @@ export default function Login({ history }){
     <input 
        type="email" 
        id="email" 
-       placeholder="Seu melhor e-mail"
+       placeholder="Seu melhor E-mail"
        value={email}
        onChange={event => setEmail(event.target.value)}
      />
